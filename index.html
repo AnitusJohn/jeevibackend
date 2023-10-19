@@ -858,6 +858,7 @@ $(document).ready(function (e) {
         $('.video-popup').css('display', 'flex');
         $('.iframe-src').slideDown();
     });
+
     $('.video-popup').on('click', function (e) {
         var $target = e.target.nodeName;
         var video_src = $(this).find('iframe').attr('src');
